@@ -1,3 +1,3 @@
 echo compile...
-arm-none-eabi-g++ -std=c++23 -march=armv7e-m -S -O$1 gpio_test.cc -I../inc/XSPL -I../inc/
-arm-none-eabi-g++ -std=c++23 -c -O$1 gpio_test.cc -I../inc/XSPL -I../inc/
+arm-none-eabi-clang++ -std=c++23 -S -O$1 gpio_test.cc -I../inc/XSPL -I../inc/
+arm-none-eabi-clang++ -std=c++23 -c -O$1 gpio_test.cc -I../inc/XSPL -I../inc/

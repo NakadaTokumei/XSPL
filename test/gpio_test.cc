@@ -9,7 +9,7 @@ int main(void)
     CPP_GPIOE::SetMode(1, xspl::GPIOMode::OUTPUT_HIGH);
     CPP_GPIOE::SetOutputConfig(1, xspl::GPIOOutputConfig::PUSH_PULL);
     CPP_GPIOE::SetMode(2, xspl::GPIOMode::INPUT);
-    CPP_GPIOE::SetOutputConfig(1, xspl::GPIOOutputConfig::PUSH_PULL);
+    CPP_GPIOE::SetInputConfig(1, xspl::GPIOInputConfig::PULL_UP_DOWN);
 
     if(CPP_GPIOE::Input(2))
     {
