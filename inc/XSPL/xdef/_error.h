@@ -1,7 +1,8 @@
 #ifndef __XSPL_ERROR_H__
 #define __XSPL_ERROR_H__
 
-#include "../LL/macro.h"
+#include "_def.h"
+#include "_macro.h"
 
 namespace xspl
 {
